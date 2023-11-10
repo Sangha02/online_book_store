@@ -1,0 +1,52 @@
+/* style.css */
+
+/* Style the header */
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the lead text */
+p.lead {
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Style the list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+/* Style the badge (count) */
+span.badge {
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+/* Style links */
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
